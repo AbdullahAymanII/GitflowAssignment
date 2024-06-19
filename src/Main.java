@@ -11,5 +11,10 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+        public static void printDoubles(double[] doubles){
+            for (int i = 0; i < doubles.length; i++) {
+                System.out.println(doubles[i]);
+            }
+        }
     }
 }
