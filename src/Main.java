@@ -2,7 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
+        int[] arr={1,2,3};
+        printIntigers(arr);
     }
     public static void printIntigers(int[]arr){
         for (int i = 0; i < arr.length; i++) {
